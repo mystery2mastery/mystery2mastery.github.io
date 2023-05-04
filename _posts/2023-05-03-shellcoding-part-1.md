@@ -39,14 +39,6 @@ Look at this code snippet:
 ```
 
 
-```{.assembly_x86 .numberLines startFrom="10"}
-//nasm
-mov eax, 0
-mov ecx, eax
-xor ebx, ebx
-```
-
-
 :::note
 asdsadadsadsadad
 :::
