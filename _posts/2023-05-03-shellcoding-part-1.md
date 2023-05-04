@@ -1,21 +1,20 @@
 ---
 title: Shellcoding Part 1
-date: 2023-05-04
+date: 2023-05-03
 categories: [ALL, Shellcoding]
 tags: [shellcode]     # TAG names should always be lowercase
 ---
 
 # Welcome to Shellcoding part 1
 
-**Windows Shellcode Development**
-
+# Windows Shellcode Development
 
 ## Art of Shellcoding: 5. calc.exe universal shellcode
 
 - Our approach to calc.exe shellcode:
 - Actual implementation of code
 
-### Our approach to calc.exe shellcode:
+#### Our approach to calc.exe shellcode:
 
 1. Get the base address of kernel32.dll
 2.  For running calc.exe we will make use of 'WinExec' API from kernel32.dll and we will close our shellcode with 'ExitProcess' API also from kernel32.dll. For obtaining the addresses of these APIs we will implement a hashing function and use it to find the addresses of these APIs. Store the addresses of  resolved APIs on the stack for future use.
@@ -36,6 +35,14 @@ Look at this code snippet:
   ;It has three NULL bytes. So, to avoid this, we do the following:
   xor eax, eax ; make eax = 0
   mov eax, dword ptr FS:[eax + 30h] ; 0+30 = 30
+```
+
+
+```{.assembly_x86 .numberLines startFrom="10"}
+//nasm
+mov eax, 0
+mov ecx, eax
+xor ebx, ebx
 ```
 
 
@@ -65,12 +72,3 @@ This is the value at `mov eax, 0x00` adsdsadsadas adsa
 - [ ] Task 2
 - [ ] Task3
 - [x] Task4
-
-[dsfdsfdssdfdsffsdf]
-
-
-
-gfhdhdhghgh
-#### sadsadsad
-
-[](url)
