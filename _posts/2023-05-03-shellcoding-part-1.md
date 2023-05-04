@@ -7,7 +7,7 @@ tags: [shellcode]     # TAG names should always be lowercase
 
 # Welcome to Shellcoding part 1
 
-```assembly_x86
+```nasm
   mov eax, dword ptr FS:[30h] ; the opcode for this is 64 A1 30 00 00 00. 
   
   
