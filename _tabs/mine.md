@@ -1,5 +1,5 @@
 ---
-layout: mine
+layout: page
 icon: fas fa-tag
 order: 5
 ---
