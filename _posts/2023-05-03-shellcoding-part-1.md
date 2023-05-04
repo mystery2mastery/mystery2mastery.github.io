@@ -15,7 +15,7 @@ tags: [shellcode]     # TAG names should always be lowercase
 - Our approach to calc.exe shellcode:
 - Actual implementation of code
 
-#### Our approach to calc.exe shellcode:
+### Our approach to calc.exe shellcode:
 
 1. Get the base address of kernel32.dll
 2.  For running calc.exe we will make use of 'WinExec' API from kernel32.dll and we will close our shellcode with 'ExitProcess' API also from kernel32.dll. For obtaining the addresses of these APIs we will implement a hashing function and use it to find the addresses of these APIs. Store the addresses of  resolved APIs on the stack for future use.
