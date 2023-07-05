@@ -17,6 +17,19 @@ tags: [shellcode]     # TAG names should always be lowercase
 ```
 
 
+```{.nasm .numberLines startFrom="10"}
+  mov eax, dword ptr FS:[30h] ; the opcode for this is 64 A1 30 00 00 00. 
+  
+  
+  ;It has three NULL bytes. So, to avoid this, we do the following:
+  xor eax, eax ; make eax = 0
+  mov eax, dword ptr FS:[eax + 30h] ; 0+30 = 30
+```
+
+
+
+
+
 ```{.assembly_x86 .numberLines startFrom="10"}
 //nasm
 mov eax, 0
