@@ -24,7 +24,7 @@ tags: [shellcode]     # TAG names should always be lowercase
   xor eax, eax ; make eax = 0
   mov eax, dword ptr FS:[eax + 30h] ; 0+30 = 30
 ```
-{: .start_line=43}
+{: .start_line:43}
 
 
 ```{.nasm .numberLines startFrom="10"}
