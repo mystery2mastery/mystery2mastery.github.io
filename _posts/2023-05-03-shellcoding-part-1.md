@@ -1,6 +1,6 @@
 ---
 title: Shellcoding Part 1
-date: 2023-05-03
+date: 2023-06-06
 categories: [ALL, Shellcoding]
 tags: [shellcode]     # TAG names should always be lowercase
 ---
