@@ -44,7 +44,7 @@ This sentence has five words. Here are five more words. Five-word sentences are 
 {: .nolineno}
 
 
-```{.nasm .numberLines startFrom="10"}
+```nasm=5
   mov eax, dword ptr FS:[30h] ; the opcode for this is 64 A1 30 00 00 00. 
   
   
