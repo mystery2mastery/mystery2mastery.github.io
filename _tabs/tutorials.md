@@ -76,4 +76,4 @@ This is a curated list of the posts arranged in tutorial format.
 </details>
 
 
-# Linux
+# <span style="color:#04ff00">Linux</span>
