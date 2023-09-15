@@ -2,7 +2,27 @@
 # the default layout is 'page'
 icon: fas fa-info-circle
 order: 5
+
 ---
 
-> Add Markdown syntax content to file `_tabs/tutorials.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+This is a curated list of the posts arranged in tutorial format.
+
+# Windows
+
+## Shellcoding
+
+
+
+## Exploit Development
+
+
+
+## Malware Analysis
+
+
+
+## Windows Internals
+
+
+
+# Linux
