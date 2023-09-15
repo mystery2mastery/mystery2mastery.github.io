@@ -11,7 +11,7 @@ This is a curated list of posts arranged in tutorial format.
 
 ## Shellcoding:
 
-0. Prerequisites / Basic Concepts: Before diving into the world of shellcoding, one is expected to know a few concepts. If you are unsure, please go through this absolutely essential basic concepts section.
+0. <details><summary>Prerequisites / Basic Concepts:</summary> Before diving into the world of shellcoding, one is expected to know a few concepts. If you are unsure, please go through this absolutely essential basic concepts section.</details>
 1. What is a shellcode?
 2. Why should I learn shellcoding?
 3. What do I need to learn shellcoding?
