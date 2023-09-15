@@ -7,7 +7,7 @@ order: 5
 
 This is a curated list of the posts arranged in tutorial format.
 
-# Windows
+# <span style="color:lightgreen">Windows</span>
 
 ## Shellcoding
 <details>
