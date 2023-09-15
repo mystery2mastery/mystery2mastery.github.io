@@ -11,10 +11,13 @@ This is a curated list of the posts arranged in tutorial format.
 ----
 
 
+<details>
+<summary>Shellcoding</summary>
 
 ## Shellcoding
-<details>
-<summary>Section A</summary>
+</details>
+
+
 <details>
 <summary>Section A.B</summary>
 <details>
@@ -25,7 +28,7 @@ This is a curated list of the posts arranged in tutorial format.
 </details>
 </details>
 </details>
-</details>
+
 
 
 ## Exploit Development
@@ -76,4 +79,4 @@ This is a curated list of the posts arranged in tutorial format.
 </details>
 
 
-# <span style="color:#04ff00">Linux</span>
+# Linux
