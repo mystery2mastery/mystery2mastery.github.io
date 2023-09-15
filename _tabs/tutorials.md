@@ -8,7 +8,6 @@ order: 5
 This is a curated list of posts arranged in tutorial format.
 
 # <span style="color:lightgreen">The Art of Windows:</span>
-----
 
 ## Shellcoding:
 
