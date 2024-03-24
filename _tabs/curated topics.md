@@ -4,6 +4,8 @@ icon: fas fa-book
 order: 4
 
 ---
+> This section contains some of my posts arranged in an easy-to-follow tutorial format covering various topics.
+
 # <span style="color:lightgreen">The Art of Windows:</span>
 * [Shellcoding]()
 * [Exploit Development]()
