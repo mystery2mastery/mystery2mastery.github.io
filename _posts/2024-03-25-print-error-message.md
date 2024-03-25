@@ -7,7 +7,7 @@ tags: [code snippet, c] # You can add any number of tags, comma separated. TAG n
 
 # Print Error Message
 
-This code snippet resolves the error message corresponding to an error code and prints it to the console.
+A useful code snippet to resolve the error message corresponding to an error code and print it to the console.
 
 ## Print error message to console without color
 
