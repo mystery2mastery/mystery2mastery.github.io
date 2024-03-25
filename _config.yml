@@ -18,9 +18,9 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Mystery❷Mastery # the main title
+title: G Narasimha Reddy # the main title
 
-tagline: Demistifying & Mastering the Art of Reverse Engineering, Malware Analysis and Exploit Development # it will display as the sub-title
+tagline: a curious polymath, captivated by the enigmatic world of malware research # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   A blog on reverse engineering, malware analysis and exploit development with special focus on Windows OS.
